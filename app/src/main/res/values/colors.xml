@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_oscuro">#0D2A4A</color>
+    <color name="azul_medio">#1B4B7A</color>
+    <color name="azul_claro">#2E6FB7</color>
+    <color name="azul_boton">#2E6FB7</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="gris_texto">#666666</color>
+</resources>

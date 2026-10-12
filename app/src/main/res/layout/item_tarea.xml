@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="#F0F4F8"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tvTarea"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@color/azul_oscuro"
+        android:text="Leer Kotlin · Estudio"/>
+
+    <Button
+        android:id="@+id/btnEditarTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/btnEliminarTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:textSize="12sp"
+        android:layout_marginStart="8dp"/>
+
+</LinearLayout>
