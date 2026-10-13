@@ -33,12 +33,19 @@
         android:id="@+id/btnTareas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tareas"/>
+        android:text="Tareas"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnEventos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eventos"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Estephano Gutierrez · v0.1.0 (1)"
+        android:text="Estephano Gutierrez · v0.2.0 (2)"
         android:textColor="@color/blanco"
         android:textSize="14sp"
         android:layout_marginTop="48dp"/>
